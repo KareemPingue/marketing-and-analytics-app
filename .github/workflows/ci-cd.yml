@@ -33,5 +33,3 @@ jobs:
         run: |
           docker build -t marketing-analytics-app .
           docker push marketing-analytics-app
-
-          
