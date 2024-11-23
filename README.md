@@ -1,4 +1,4 @@
-# Marketing & Analytics System Application
+# Marketing & Analytics Application
 
 ## Brief Overview
 A comprehensive analytics and marketing system that integrates predictive maintenance, customer journey optimization, and AI-driven personalization to improve customer engagement and operational efficiency across industries.
