@@ -8,22 +8,61 @@
 /frontend/UsersisolaAppDataLocalnpm-cache/
 /UsersisolaAppDataLocalnpm-cache
 /UsersisolaAppDataLocalnpm-cache/
-/.pnp
-.pnp.js
+
+# sensitive environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
 
 # testing
 /coverage
 
-# production
+# build and production output
 /build
+/dist
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+# operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Sensitive keys and configurations
+/secrets/
+*.pem
+*.key
+*.crt
+
+# Docker-related
+docker-compose.override.yml
+
+# Terraform-related
+*.tfstate
+*.tfstate.backup
+
+# Open Policy Agent (OPA)
+*.rego.cache
+
+# Miscellaneous generated files
+.pnp
+.pnp.js
